@@ -8,4 +8,15 @@ ASCII art is a graphic design technique that uses computers for presentation and
 3. Install Pillow (PIL)
 4. run using cmd or any python IDE
 
+# Working of Code
 
+This code contains two funtions "asc_img()" and "img2sketch()" to convert given image to ascii format and than convert ascii image to pencil sketch.
+In "asc_img()" Pillow is used to convert image to ascii image.
+Than in "img2sketch()" OpenCV in used to convert image to pencil sketch.
+
+# Learnings...
+
+1. Basics of working of images
+2. Image transformation
+3. OpenCV
+4. Pillow python
