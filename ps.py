@@ -48,7 +48,7 @@ def asc_img():
     
 
     im =Image.open("pineapple.png")
-    fnt = ImageFont.truetype('segoepr.ttf', 15)
+    fnt = ImageFont.truetype('arial.ttf', 15)
 
     width, height = im.size
     im = im.resize((int(0.25*width), int(0.25*height*(6/oneCharHeight))), Image.Resampling.NEAREST)
